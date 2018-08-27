@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PickPowerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hero_bg_gradient"
+        android:orientation="vertical">
+
+        <!-- Select the " AppCompat.NoActionBar " theme from the theme editor in the design view -->
+
+        <Button
+            android:id="@+id/button_accident"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="came by accident"
+            android:textColor="#FFD200"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_genetic"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Genetic Mutation"
+            android:textColor="#FFD200"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_born"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Born with them"
+            android:textColor="#FFD200"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_genetic"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Genetic Mutation"
+            android:textColor="#FFD200"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_born"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Born with them"
+            android:textColor="#FFD200"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_choose"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="#FFD200"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Choose powers"
+            android:textColor="#233B4F"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</FrameLayout>
